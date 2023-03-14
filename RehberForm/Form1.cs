@@ -60,7 +60,6 @@ public partial class Form1 : Form
         txtTelefon2.Text = secilenKisi.Telefon2;
         txtWebAdres.Text = secilenKisi.WebAdres;
     }
-
     private void FormCleaner()
     {
         foreach (var item in this.Controls)
